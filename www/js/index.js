@@ -6,16 +6,16 @@ document.addEventListener("deviceready", onDeviceReady, false);
 		
 	
 function updateDisplay() {
-    if ("launched") {
-        ("Application launched: " + launched_count);
-    }
-    if ("resumed") {
-        ("Application paused: " + paused_count);
-    }
-
-     if ("paused") {
-         ("Application resumed: " + resumed_count);
-     }
+    
+    document.getElementById("launched");
+        "Application launched: " + launched_count;
+    
+    document.getElementById("resumed");
+        "Application paused: " + paused_count;
+    
+    document.getElementById("paused");
+         "Application resumed: " + resumed_count;
+     
 }
 
 
