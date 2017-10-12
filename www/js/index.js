@@ -6,22 +6,10 @@ document.addEventListener("deviceready", onDeviceReady, false);
 		
 	
 function updateDisplay() {
-<<<<<<< HEAD
-    
-    document.getElementById("launched", "Application launched: " + launched_count);
-        
-    
-    document.getElementById("resumed", "Application paused: " + paused_count);
-       
-    
-    document.getElementById("paused", "Application resumed: " + resumed_count);
-    
-     
-=======
+
 	$("#launched").text("Application launched: " + launched_count);
 	$("#resumed").text("Application paused: " + paused_count);
 	$("#paused").text("Application resumed: " + resumed_count);
->>>>>>> parent of 2eb4ac5... test
 }
 
 
